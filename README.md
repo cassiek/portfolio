@@ -1,6 +1,6 @@
 # Cassie Kumpula
 
-### Overview
+## Overview
 This is my portfolio website. It is meant to showcase my projects, and will be updated to add new ones I've completed.
 
 The tech stack to make this portfolio is:
