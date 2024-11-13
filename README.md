@@ -1,6 +1,6 @@
 # Cassie Kumpula
 
-### Overview
+## Overview
 This is my portfolio website. It is meant to showcase my projects, and will be updated to add new ones I've completed.
 
 The tech stack to make this portfolio is:
@@ -9,8 +9,8 @@ The tech stack to make this portfolio is:
 - Sass
 - JavaScript
 
-### Live link:
+## Live link:
 (coming soon)
 
-### About the Author:
+## About the Author:
 - My LinkedIn: https://www.linkedin.com/in/cassie-k/
