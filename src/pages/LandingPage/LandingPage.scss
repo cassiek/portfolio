@@ -1,0 +1,36 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
+.landing-page {
+
+    &__content {
+        margin: 12rem 0;
+        @include tablet {
+            margin: 18rem 0;
+        }
+        @include desktop {
+            width: $desktop-content-width;
+            margin: 18rem auto;
+        }
+    }
+    &__header {
+        width: 12rem;
+        color: $portfolio-grey;
+        margin: 0 auto;
+        @include tablet {
+            width: 22rem;
+        }
+    }
+    &__br--top {
+        //display: none;
+        @include tablet {
+            //display: block;
+        }
+    }
+    &__br--bottom {
+        display: none;
+        @include tablet {
+            display: block;
+        }
+    }
+}
