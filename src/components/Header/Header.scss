@@ -2,17 +2,29 @@
 @use "../../styles/partials/mixins" as *;
 @use "../../styles/partials/variables" as *;
 
-header {
-    font-family: "Albert Sans";
-}
-
 .nav {
+    background-color: $light-silver;
+    color: $portfolio-lilac;
 
     &__list {
-
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 0 0 0;
+        @include tablet {
+            flex-direction: row;
+            justify-content: flex-end;
+            padding: 1rem 2rem 0 2rem;
+        }
+        @include desktop {
+            width: $desktop-content-width;
+        }
     }
     &__item {
         text-decoration: none;
         list-style: none;
+        margin: 0 auto 1rem auto;
+        @include tablet {
+            margin: 0 0 1rem 1rem;   
+        }
     }
 }
