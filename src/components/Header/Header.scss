@@ -21,9 +21,12 @@
         }
     }
     &__item {
+        color: $portfolio-lilac;
         text-decoration: none;
         list-style: none;
+        display: block;
         margin: 0 auto 1rem auto;
+        width: fit-content;
         @include tablet {
             margin: 0 0 1rem 1.5rem;   
         }
