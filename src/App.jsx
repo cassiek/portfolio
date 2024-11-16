@@ -4,6 +4,8 @@ import './App.scss';
 import Header from "./components/Header/Header.jsx";
 import LandingPage from "./pages/LandingPage/LandingPage.jsx";
 
+import Footer from "./components/Footer/Footer.jsx";
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -20,6 +22,7 @@ function App() {
 
             {/* <Route path="*" element={<NotFoundPage />} /> */}
           </Routes>
+          <Footer />
         </BrowserRouter>
       </div>
     </>

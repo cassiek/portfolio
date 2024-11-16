@@ -1,0 +1,12 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
+.footer {
+    background-color: $light-silver;
+    
+    &__copyright {
+        color: $portfolio-lilac;
+        margin: 1rem 0;
+        justify-self: center;
+    }
+}
