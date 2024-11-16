@@ -2,7 +2,10 @@
 @use "../../styles/partials/variables" as *;
 
 .landing-page {
-
+    height: 78vh;
+    @include tablet {
+        height: 87vh;
+    }
     &__content {
         margin: 12rem 0;
         @include tablet {
