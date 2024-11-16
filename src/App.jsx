@@ -3,7 +3,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.scss';
 import Header from "./components/Header/Header.jsx";
 import LandingPage from "./pages/LandingPage/LandingPage.jsx";
-
+import SkillsPage from "./pages/SkillsPage/SkillsPage.jsx";
+//import ProjectsPage from "./pages/"
+//import ContactPage from "./pages/"
 import Footer from "./components/Footer/Footer.jsx";
 
 function App() {
@@ -16,7 +18,7 @@ function App() {
           <Header />
           <Routes>
             <Route path="/" element={<LandingPage />} />
-            {/* <Route path="/skills" element={<SkillsPage />} /> */}
+            <Route path="/skills" element={<SkillsPage />} />
             {/* <Route path="/projects" element={<ProjectsPage />} /> */}
             {/* <Route path="/contact" element={<ContactPage />} /> */}
 
@@ -29,4 +31,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
