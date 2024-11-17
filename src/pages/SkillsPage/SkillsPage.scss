@@ -6,17 +6,26 @@
     @include tablet {
         height: 87vh;
     }
+    @include desktop {
+        width: $desktop-content-width;
+        margin: 0 auto;
+    }
     &__content {
         padding: 2rem 1.5rem;
         //margin: 0 auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        
+        @include desktop {
+            padding: 2rem 0;
+        }
     }
     &__header {
         color: $portfolio-grey;
         margin-left: 0.5rem;
+        @include desktop {
+            margin: 0;
+        }
     }
     &__skills {
         display: flex;
