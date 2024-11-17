@@ -1,0 +1,62 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
+.contact-page {
+    height: 74vh;
+    @include tablet {
+        height: 87vh;
+    }
+    &__content {
+        color: $portfolio-grey;
+        padding: 2rem 1.5rem;
+        @include tablet {
+            
+            
+        }
+        @include desktop {
+            width: $desktop-content-width;
+            margin: 0 auto;
+        }
+    }
+    &__header {
+        margin: 0 0 3rem 0;
+        @include tablet {
+            margin: 0 0 2rem 0.6rem;
+        }
+        @include desktop {
+            margin: 0 0 2rem 0;
+        }
+    }
+    &__text {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        //height: 85%;
+        @include tablet {
+            margin: 0 auto;
+            width: 30rem;
+        }
+    }
+    &__description {
+
+    }
+    &__CTA {
+        //margin: 8rem 0 2rem 0;
+        @include tablet {
+            margin: 2rem 0;
+        }
+    }
+    &__socials-icons {
+        display: flex;
+    }
+    &__email {
+        margin: 3rem 0;
+        @include tablet {
+            margin: 2rem 0;
+        }
+    }
+    &__email-link {
+        color: $portfolio-lilac;
+    }
+}
