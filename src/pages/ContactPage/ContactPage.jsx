@@ -18,8 +18,8 @@ function ContactPage() {
                         <p className="contact-page__CTA">Let's get in touch!</p>
                         <div className="contact-page__socials-icons">
                             <Link to="https://www.linkedin.com/in/cassie-k/"><img src="../../assets/icons/connection.png" alt="LinkedIn icon linking to LinkedIn profile"/></Link>
-                            <Link to="https://medium.com/@cassiekumpula/about"><img src="../../assets/icons/medium2.png" alt="Medium icon linking to Medium profile"/></Link>
-                            <Link to="https://github.com/cassiek"><img src="../../assets/icons/github_919847.png" alt="GitHub icon linking to GitHub profile"/></Link>
+                            <Link to="https://medium.com/@cassiekumpula/about"><img src="../../assets/icons/medium.png" alt="Medium icon linking to Medium profile"/></Link>
+                            <Link to="https://github.com/cassiek"><img src="../../assets/icons/github.png" alt="GitHub icon linking to GitHub profile"/></Link>
                         </div>
                         <div className="contact-page__email">
                             <img className="contact-page__email-icon" src="../../assets/icons/letter.png"/>
