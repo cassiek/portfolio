@@ -7,7 +7,7 @@ function SkillsPage() {
             <section className="skills-page__content">
                 <h3 className="skills-page__header">Skills</h3>
                 <div className="skills-page__skills">
-                    <ul className="skill-ul">
+                    <ul className="front-end">
                         <h4 className="skill-ul__header">Font-end</h4>
                         <li className="skill-ul__item">HTML</li>
                         <li className="skill-ul__item">CSS</li>
@@ -17,7 +17,7 @@ function SkillsPage() {
                         <li className="skill-ul__item">React</li>
                         <li className="skill-ul__item">Responsive Design</li>
                     </ul>
-                    <ul className="skill-ul">
+                    <ul className="back-end">
                         <h4 className="skill-ul__header">Back-end</h4>
                         <li className="skill-ul__item">Node.js</li>
                         <li className="skill-ul__item">Express.js</li>
@@ -27,7 +27,7 @@ function SkillsPage() {
                         <li className="skill-ul__item">Web APIs</li>
                         <li className="skill-ul__item">RESTful APIs</li>
                     </ul>
-                    <ul className="skill-ul">
+                    <ul className="other">
                         <h4 className="skill-ul__header">Other</h4>
                         <li className="skill-ul__item">Git</li>
                         <li className="skill-ul__item">GitHub</li>

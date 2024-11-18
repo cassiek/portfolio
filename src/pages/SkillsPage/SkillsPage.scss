@@ -31,21 +31,40 @@
         flex-wrap: wrap;
         width: fit-content;
         margin: 0 auto;
-        @include tablet {
-            //flex-direction: row;
-        }
     }
 }
-.skill-ul {
-    padding: 1rem;
+.front-end {
+    padding: 1rem 1rem 1rem 2rem;
     width: 10rem;
     margin: 1rem 1rem 0 0;
     color: $portfolio-grey;
     border: $portfolio-grey 1px solid;
     border-radius: 0.5rem;
-    &__header {
-        //margin-bottom: 0.5rem;
+    &__item {
+        margin: 0.25rem 0 0 1rem;
     }
+}
+.back-end {
+    padding: 1rem 1rem 1rem 2rem;
+    width: 10rem;
+    margin: 1rem 1rem 0 0;
+    color: $portfolio-grey;
+    border: $portfolio-grey 1px solid;
+    border-radius: 0.5rem;
+    @include tablet {
+        margin: 1rem 1rem 0 0;
+    }
+    &__item {
+        margin: 0.25rem 0 0 1rem;
+    }
+}
+.other {
+    padding: 1rem 1rem 1rem 2rem;
+    width: 10rem;
+    margin: 1rem 0 0 0;
+    color: $portfolio-grey;
+    border: $portfolio-grey 1px solid;
+    border-radius: 0.5rem;
     &__item {
         margin: 0.25rem 0 0 1rem;
     }
