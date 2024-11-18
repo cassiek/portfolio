@@ -1,5 +1,9 @@
 import "./ContactPage.scss";
 import { Link } from "react-router-dom";
+import LinkedIn from "../../assets/icons/connection.png";
+import Medium from "../../assets/icons/medium.png";
+import GitHub from "../../assets/icons/github.png";
+import email from "../../assets/icons/email.png";
 
 function ContactPage() {
 
@@ -16,14 +20,13 @@ function ContactPage() {
                     </p>
                     <div>
                         <p className="contact-page__CTA">Let's get in touch!</p>
-                        <div className="contact-page__socials-icons">
-                            <Link to="https://www.linkedin.com/in/cassie-k/"><img src="../../assets/icons/connection.png" alt="LinkedIn icon linking to LinkedIn profile"/></Link>
-                            <Link to="https://medium.com/@cassiekumpula/about"><img src="../../assets/icons/medium.png" alt="Medium icon linking to Medium profile"/></Link>
-                            <Link to="https://github.com/cassiek"><img src="../../assets/icons/github.png" alt="GitHub icon linking to GitHub profile"/></Link>
+                        <div className="socials-icons">
+                            <Link to="https://www.linkedin.com/in/cassie-k/"><img src={LinkedIn} className="socials-icons__icon--linkedin" alt="LinkedIn icon linking to LinkedIn profile"/></Link>
+                            <Link to="https://medium.com/@cassiekumpula/about"><img src={Medium} className="socials-icons__icon--medium" alt="Medium icon linking to Medium profile"/></Link>
+                            <Link to="https://github.com/cassiek"><img src={GitHub} className="socials-icons__icon--github" alt="GitHub icon linking to GitHub profile"/></Link>
                         </div>
-                        <div className="contact-page__email">
-                            <img className="contact-page__email-icon" src="../../assets/icons/letter.png"/>
-                            <Link className="contact-page__email-link" to="mailto:ckumpula123@gmail.com">ckumpula123@gmail.com</Link>
+                        <div className="email">
+                            <Link className="email__link" to="mailto:ckumpula123@gmail.com"><img className="email__icon" src={email}/>ckumpula123@gmail.com</Link>
                         </div>
                     </div>
                 </div>
