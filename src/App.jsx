@@ -6,6 +6,7 @@ import LandingPage from "./pages/LandingPage/LandingPage.jsx";
 import SkillsPage from "./pages/SkillsPage/SkillsPage.jsx";
 //import ProjectsPage from "./pages/"
 import ContactPage from "./pages/ContactPage/ContactPage.jsx";
+import ResumePage from "./pages/ResumePage/ResumePage.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <Route path="/skills" element={<SkillsPage />} />
             {/* <Route path="/projects" element={<ProjectsPage />} /> */}
             <Route path="/contact" element={<ContactPage />} />
+            <Route path="/resume" element={<ResumePage />} />
 
             {/* <Route path="*" element={<NotFoundPage />} /> */}
           </Routes>
