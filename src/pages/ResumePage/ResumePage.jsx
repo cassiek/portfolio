@@ -9,12 +9,14 @@ import resume from "../../assets/resume/Cassie Kumpula Portfolio Resume.pdf";
 
 function ResumePage() {
     return (
-        <main>
+        <main className="resume-page">
+            <h3 className="resume-page__header">Resume</h3>
             <Document file={resume}>
                 <Page 
                 pageNumber={1}
                 renderTextLayer={false}
                 renderAnnotationLayer={false}
+                className="resume-page__page"
                 />
             </Document>
         </main>

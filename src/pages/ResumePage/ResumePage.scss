@@ -1,2 +1,12 @@
 @use "../../styles/partials/mixins" as *;
 @use "../../styles/partials/variables" as *;
+
+.resume-page {
+    &__header {
+        color: $portfolio-grey;
+    }
+    &__page {
+        width: fit-content;
+        margin: 0 auto;
+    }
+}
