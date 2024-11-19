@@ -2,6 +2,13 @@
 @use "../../styles/partials/variables" as *;
 
 .resume-page {
+    height: 74vh;
+    @include tablet {
+        height: 87vh;
+    }
+    &__content {
+        padding: 2rem 1.5rem;
+    }
     &__header {
         color: $portfolio-grey;
     }
