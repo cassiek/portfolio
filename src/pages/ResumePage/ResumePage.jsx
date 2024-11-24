@@ -12,7 +12,7 @@ function ResumePage() {
         <main className="resume-page">
             <section className="resume-page__content">
                 <h3 className="resume-page__header">Resume</h3>
-                <Document file={resume}>
+                <Document file={resume} className="resume-page__document">
                     <Page 
                     pageNumber={1}
                     renderTextLayer={false}

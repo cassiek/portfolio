@@ -2,18 +2,48 @@
 @use "../../styles/partials/variables" as *;
 
 .resume-page {
-    height: 74vh;
+    margin: 0;
+    padding: 0;
+    height: 110vh;
     @include tablet {
-        height: 87vh;
+        height: 107vh;
     }
     &__content {
         padding: 2rem 1.5rem;
+        margin: 0;
+        width: 100%;
     }
     &__header {
         color: $portfolio-grey;
     }
-    &__page {
+    &__document {
         width: fit-content;
-        margin: 0 auto;
+        //scale: 0.7;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: inline;
+    }
+    &__Document {
+        margin: 0;
+        padding:0;
+        //scale: 0.7;
+        width: 100%;
+
+    }
+    &__Page {
+        margin: 0;
+        padding: 0;
+        //scale: 0.7;
+        width: 100%;
+    }
+    &__page {
+        //scale: 0.7;
+        display: block;
+        //width: fit-content;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: inline;
     }
 }
