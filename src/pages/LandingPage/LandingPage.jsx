@@ -1,12 +1,13 @@
 import "./LandingPage.scss";
 import { ReactTyped } from "react-typed";
+import Emoji from "../../components/Emoji/Emoji.jsx";
 
 function LandingPage() {
 
     
-
+    //<Emoji label="wave" symbol="👋" />
     //strings: ["Hi, I'm Cassie. 👋", "I'm a full-stack web developer.", "Welcome to my portfolio."],
-    //let waveEmoji = "👋";
+    
 
     return (
         <>
@@ -14,15 +15,15 @@ function LandingPage() {
                 <section className="landing-page__content">
 
                     <ReactTyped 
-                        strings={["Hi, I'm Cassie. ", "I'm a full-stack web developer.", "Welcome to my portfolio."]}
-                        typeSpeed={60}
-                        backSpeed={50}
+                        strings={["Hi, I'm Cassie.", "I'm a full-stack web developer.", "Welcome to my portfolio."]}
+                        typeSpeed={50}
+                        backSpeed={40}
                         loop
                         className="landing-page__header"
+                        showCursor={true}
                     >
-                        <h1 className="landing-page__header"></h1>
-                    </ReactTyped> 
-
+                    </ReactTyped>
+                    
                 </section>
             </main>
         </>
