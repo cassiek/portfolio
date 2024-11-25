@@ -1,7 +1,7 @@
 import "./ContactPage.scss";
 import { Link } from "react-router-dom";
-import LinkedIn from "../../assets/icons/connection.png";
-import Medium from "../../assets/icons/medium.png";
+import LinkedIn from "../../assets/icons/linkedin.png";
+import Medium from "../../assets/icons/medium-brands-solid.svg";
 import GitHub from "../../assets/icons/github.png";
 import email from "../../assets/icons/email.png";
 
