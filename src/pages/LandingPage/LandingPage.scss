@@ -17,8 +17,10 @@
         }
     }
     &__header {
-        width: 12rem;
+        width: 14rem;
+        line-height: 3rem;
         color: $portfolio-grey;
+        text-align: center;
         margin: 0 auto;
         @include tablet {
             width: 22rem;
