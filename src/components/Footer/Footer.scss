@@ -4,7 +4,7 @@
 .footer {
     &__copyright {
         color: $portfolio-lilac;
-        margin: 1rem 0;
-        justify-self: center;
+        margin: 1rem auto;
+        width: fit-content;
     }
 }
