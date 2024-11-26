@@ -10,7 +10,7 @@ The tech stack to make this portfolio is:
 - JavaScript
 
 ### Live link:
-(coming soon)
+https://cassiekumpula.netlify.app
 
 ### About the Author:
 - My LinkedIn: https://www.linkedin.com/in/cassie-k/
