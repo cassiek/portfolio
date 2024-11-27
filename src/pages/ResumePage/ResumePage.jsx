@@ -7,7 +7,7 @@ function ResumePage() {
         <main className="resume-page">
             <section className="resume-page__content">
                 <h3 className="resume-page__header">Resume</h3>
-                <object data={resume} type="application/pdf" className="resume-page__pdf"></object>    
+                <object data={resume} type="application/pdf" className="resume-page__pdf"></object> 
             </section>
         </main>
     )

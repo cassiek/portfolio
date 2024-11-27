@@ -6,7 +6,7 @@
     padding: 0;
     height: 110vh;
     @include tablet {
-        height: 107vh;
+        height: 102vh;
     }
     @include desktop {
         width: $desktop-content-width;
@@ -16,7 +16,7 @@
         padding: 2rem 1.5rem 0 1.5rem;
         margin: 0;
         @include desktop {
-            padding: 2rem 0;
+            padding: 2rem 0 0 0;
         }
     }
     &__header {
@@ -29,7 +29,7 @@
     &__pdf {
         height: 90vh;
         width: 100%;
-        display: block;
+        //display: block;
         margin: 2rem auto 0 auto;
     }
 }
