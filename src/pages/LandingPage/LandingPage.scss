@@ -18,24 +18,12 @@
     }
     &__header {
         width: 14rem;
-        line-height: 3rem;
+        line-height: 6rem;
         color: $portfolio-grey;
         text-align: center;
         margin: 0 auto;
         @include tablet {
             width: 22rem;
-        }
-    }
-    &__br--top {
-        //display: none;
-        @include tablet {
-            //display: block;
-        }
-    }
-    &__br--bottom {
-        display: none;
-        @include tablet {
-            display: block;
         }
     }
 }
