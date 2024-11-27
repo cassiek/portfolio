@@ -12,14 +12,15 @@ function ResumePage() {
         <main className="resume-page">
             <section className="resume-page__content">
                 <h3 className="resume-page__header">Resume</h3>
-                <Document file={resume} className="resume-page__document">
-                    <Page 
-                    pageNumber={1}
-                    renderTextLayer={false}
-                    renderAnnotationLayer={false}
-                    className="resume-page__page"
-                    />
-                </Document>
+                <div className="resume-page__pdf">
+                    <Document file={resume} >
+                        <Page 
+                        pageNumber={1}
+                        renderTextLayer={false}
+                        renderAnnotationLayer={false}
+                        />
+                    </Document>
+                </div>
             </section>
         </main>
     )
