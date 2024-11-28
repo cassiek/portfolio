@@ -13,8 +13,8 @@ function ContactPage() {
                 <h3 className="contact-page__header">Contact</h3>
                 <div className="contact-page__text">
                     <p className="contact-page__description">
-                        I am currently seeking a full-time software development or related role.
-                        Please feel welcome to contact me to discuss code, collaborating on a project,
+                        I am currently seeking a software development or related role.
+                        You are welcome to contact me to discuss code, collaborating on a project,
                         an opportunity, or even to expand your network, and I will be delighted to 
                         connect with you.
                     </p>
