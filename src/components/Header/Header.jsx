@@ -10,6 +10,7 @@ function Header() {
                     <div className="nav__menu">
                         <li><NavLink to="/skills" className="nav__item">Skills</NavLink></li>
                         <li><NavLink to="/projects" className="nav__item">Projects</NavLink></li>
+                        <li><NavLink to="/resume" className="nav__item">Resumé</NavLink></li>
                         <li><NavLink to="/contact" className="nav__item">Contact</NavLink></li>
                     </div>
                 </ul>
