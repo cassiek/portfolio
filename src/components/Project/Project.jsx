@@ -15,7 +15,7 @@ function Project({ title, stack, also, video, link, GitHub, description }) {
                 <source src={video} type="" />
             </video>
         </div>
-        <div className="project__buttons">
+        <div className="buttons">
             <a href="#" className="project__link">{link}</a>
             <Link to="#" className="project__video">{video}</Link>
             <a href="#" className="project__code">{GitHub}</a>
