@@ -2,27 +2,71 @@
 @use "../../styles/partials/mixins" as *;
 
 .project {
+    width: 100%;
 
     &__title {
-
+        margin: 0.3rem 0;
     }
     &__stack {
 
     }
     &__also {
-
+        margin: 0.3rem 0 1rem 0;
     }
     &__preview {
+        
+    }
+    &__video-player {
+        width: 100%;
+    }
+    &__buttons {
 
     }
     &__overview {
-
+        margin: 0 0 0.5rem 0;
     }
     &__description {
-
+        margin: 0 0 0.5rem 0;
+    }
+    &__expandable {
+        border: 1px solid $portfolio-lilac;
+        padding: 0.75rem;
+        margin: 0.5rem 0;
+        border-radius: 0.5rem;
     } 
 }
 
 .buttons {
-    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    &__link {
+        padding: 0.5rem;
+        border: 1px solid $portfolio-lilac;
+        margin: 1rem 1rem 1rem 0;
+        text-decoration: none;
+        color: $portfolio-grey;
+        border-radius: 0.5rem;
+    }
+    &__preview {
+        padding: 0.5rem;
+        border: 1px solid $portfolio-lilac;
+        margin: 1rem 1rem 1rem 0;
+        text-decoration: none;
+        color: $portfolio-grey;
+        border-radius: 0.5rem;
+    }
+    &__code {
+        padding: 0.5rem;
+        border: 1px solid $portfolio-lilac;
+        margin: 1rem 1rem 1rem 0;
+        text-decoration: none;
+        color: $portfolio-grey;
+        border-radius: 0.5rem;
+    }
+    &__private {
+        padding: 0.5rem;
+        //border: 1px solid $portfolio-lilac;
+        margin: 1rem 0;
+    }
 }

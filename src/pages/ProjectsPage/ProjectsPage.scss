@@ -1,3 +1,29 @@
 @use "../../styles/partials/variables" as *;
 @use "../../styles/partials/mixins" as *;
 
+.projects-page {
+    height: 107vh;
+    @include tablet {
+      height: 87vh;  
+    }
+    &__content {
+        color: $portfolio-grey;
+        padding: 2rem 1.5rem;
+        @include tablet {
+
+        }
+        @include desktop {
+            width: $desktop-content-width;
+            margin: 0 auto;
+        }
+    }
+    &__header {
+        margin: 0 0 2rem 0;
+        @include tablet {
+            margin: 0 0 2rem 0.6rem;
+        }
+        @include desktop {
+            margin: 0 0 2rem 0;
+        }
+    }
+}

@@ -12,9 +12,10 @@ function ProjectsPage() {
             stack=""
             also=""
             video=""
-            link=""
+            live=""
             GitHub=""
             description=""
+            /// expandable sections
             />
         </section>
     </main>
