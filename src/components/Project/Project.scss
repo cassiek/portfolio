@@ -3,43 +3,66 @@
 
 .project {
     width: 100%;
-
+    @include tablet {
+        width: 85%;
+        margin: 0 auto;
+    }
+    @include desktop {
+        //width: 100%;
+    }
     &__title {
-        margin: 0.3rem 0;
+        //margin-bottom: 1rem;
     }
     &__stack {
-
+        margin: 1rem 0 0.5rem 0;
+        @include tablet {
+            margin: 1.5rem 0 1rem 0;
+        }
     }
     &__also {
-        margin: 0.3rem 0 1rem 0;
+        margin-bottom: 1.5rem;
+        @include tablet {
+            margin-bottom: 2rem;
+        }
     }
     &__preview {
+        
         
     }
     &__video-player {
         width: 100%;
-    }
-    &__buttons {
-
+        border: 1px solid $portfolio-lilac;
+        border-radius: 0.5rem;
     }
     &__overview {
-        margin: 0 0 0.5rem 0;
+        margin: 0 0 1rem 0;
     }
     &__description {
-        margin: 0 0 0.5rem 0;
+        margin: 0 0 1.5rem 0;
+        @include tablet {
+            margin-bottom: 2rem;
+        }
     }
     &__expandable {
         border: 1px solid $portfolio-lilac;
         padding: 0.75rem;
-        margin: 0.5rem 0;
+        margin: 1rem 0;
         border-radius: 0.5rem;
+        @include tablet {
+            margin: 1.2rem 0;
+        }
     } 
 }
 
 .buttons {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; //mobile
+    margin: 0.5rem 0;
+    @include tablet {
+        margin: 1.5rem 0;
+        justify-content: space-evenly;
+    }
     &__link {
         padding: 0.5rem;
         border: 1px solid $portfolio-lilac;
@@ -47,26 +70,37 @@
         text-decoration: none;
         color: $portfolio-grey;
         border-radius: 0.5rem;
+        @include tablet {
+            padding: 0.75rem;
+        }
     }
     &__preview {
         padding: 0.5rem;
         border: 1px solid $portfolio-lilac;
-        margin: 1rem 1rem 1rem 0;
+        margin: 1rem;
         text-decoration: none;
         color: $portfolio-grey;
         border-radius: 0.5rem;
+        @include tablet {
+            padding: 0.75rem;
+        }
     }
     &__code {
         padding: 0.5rem;
         border: 1px solid $portfolio-lilac;
-        margin: 1rem 1rem 1rem 0;
         text-decoration: none;
         color: $portfolio-grey;
         border-radius: 0.5rem;
+        margin: 1rem 0 1rem 1rem;
+        @include tablet {
+            padding: 0.75rem;
+        }
     }
     &__private {
         padding: 0.5rem;
-        //border: 1px solid $portfolio-lilac;
-        margin: 1rem 0;
+        margin: 1rem 0 1rem 1rem;
+        @include tablet {
+            padding: 0.75rem;
+        }
     }
 }

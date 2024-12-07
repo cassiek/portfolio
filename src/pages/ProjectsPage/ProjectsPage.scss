@@ -2,15 +2,15 @@
 @use "../../styles/partials/mixins" as *;
 
 .projects-page {
-    height: 107vh;
+    height: 100vh;
     @include tablet {
-      height: 87vh;  
+      height: 137vh;  
     }
     &__content {
         color: $portfolio-grey;
         padding: 2rem 1.5rem;
         @include tablet {
-
+            padding: 2rem 2.1rem;
         }
         @include desktop {
             width: $desktop-content-width;
@@ -20,10 +20,13 @@
     &__header {
         margin: 0 0 2rem 0;
         @include tablet {
-            margin: 0 0 2rem 0.6rem;
+            margin: 0 0 2rem 0;
         }
         @include desktop {
             margin: 0 0 2rem 0;
         }
+    }
+    &__project {
+
     }
 }

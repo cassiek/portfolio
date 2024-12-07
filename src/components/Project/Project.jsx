@@ -10,7 +10,9 @@ function Project({ title, stack, also, video, live, GitHub, description }) {
   return (
     <div className="project">
         <h3 className="project__title">{title}Title</h3>
+        {} 
         <p className="project__stack">Tech stack:{stack}</p>
+        {} 
         <p className="project__also">Also:{also}</p>
         <div className="project__preview">
             <video controls className="project__video-player">
@@ -26,8 +28,7 @@ function Project({ title, stack, also, video, live, GitHub, description }) {
         </div>
         <h4 className="project__overview">Overview</h4>
         <p className="project__description">{description}description</p>
-        <div className="project__expandable">label</div>
-        <div className="project__expandable">label</div>
+        
     </div>
   )
 };

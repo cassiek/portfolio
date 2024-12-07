@@ -16,6 +16,7 @@ function ProjectsPage() {
             GitHub=""
             description=""
             /// expandable sections
+            className="projects-page__project"
             />
         </section>
     </main>
