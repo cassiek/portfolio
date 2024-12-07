@@ -9,7 +9,7 @@ function Project({ title, stack, also, video, live, GitHub, description }) {
     if (GitHub == true) {
         gitHub = <a href={GitHub} className="buttons__code">View Code on GitHub</a>;
     } else {
-        gitHub = <p className="buttons__private">Private Repo <img src={lock}/></p>;
+        gitHub = <p className="buttons__private">Private Repo <img src={lock} /></p>;
     }
 
     let alsoSection;
