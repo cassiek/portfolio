@@ -27,13 +27,14 @@ function ProjectsPage() {
     <main className="projects-page">
         <section className="projects-page__content">
             <h3 className="projects-page__header">Projects</h3>
-            <ul>
+            <ul className="projects-page__list">
                 {projects.map((project) => {
                     return (
                         <Project 
                         title={project.title}
                         stack={project.stack}
                         also={project.also}
+                        poster=""
                         video={project.video}
                         live={project.live}
                         GitHub={project.GitHub}
@@ -41,8 +42,7 @@ function ProjectsPage() {
                         requirements={project.requirements}
                         />
                     );
-                }
-                )}
+                })}
             </ul>
         </section>
     </main>
