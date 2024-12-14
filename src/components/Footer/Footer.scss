@@ -2,9 +2,25 @@
 @use "../../styles/partials/variables" as *;
 
 .footer {
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem 0;
     &__copyright {
         color: $portfolio-lilac;
-        margin: 1rem auto;
         width: fit-content;
+    }
+    &__linkedin-icon {
+        width: 1.4rem;
+        margin-top: -0.15rem;
+        margin-right: 1rem;
+    }
+    &__github-icon {
+        width: 1.4rem;
+        margin-right: 1.05rem;
+        margin-top: -0.05rem;
+    }
+    &__email-icon {
+        width: 1.4rem;
+        margin-right: 1rem;
     }
 }
