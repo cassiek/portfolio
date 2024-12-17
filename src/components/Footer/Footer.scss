@@ -13,14 +13,124 @@
         width: 1.4rem;
         margin-top: -0.15rem;
         margin-right: 1rem;
+        &:hover {
+            //display: none;
+              
+        }
+        &:active {
+            //display: none;
+            transform: translate(0, 0.2rem);
+        }
+    }
+    &__linkedin-icon--dark {
+        width: 1.4rem;
+        margin-top: -0.15rem;
+        margin-right: 1rem;
+        //display: none;
+        &:hover {
+            //display: block;
+              
+        }
+        &:active {
+            //display: block;
+            transform: translate(0, 0.2rem);
+        }
     }
     &__github-icon {
         width: 1.4rem;
         margin-right: 1.05rem;
         margin-top: -0.05rem;
+        &:hover {
+            //display: none;
+            
+        }
+        &:active {
+            //display: none;
+            transform: translate(0, 0.2rem);
+            //display: none;
+        }
+    }
+    &__github-icon--dark {
+        width: 1.4rem;
+        margin-right: 1.05rem;
+        margin-top: -0.05rem;
+        //display: none;
+        &:hover {
+            //display: block;
+            
+        }
+        &:active {
+            //display: block;
+            transform: translate(0, 0.2rem);
+        }
     }
     &__email-icon {
         width: 1.4rem;
         margin-right: 1rem;
+        &:hover {
+            //display: none;
+            filter: opacity(0.5) drop-shadow(0 0 0 black) saturate(1000%);
+            //filter: opacity(0.5) drop-shadow(0 0 0 black) saturate(1000%);
+        }
+        &:active {
+            //display: none;
+            transform: translate(0, 0.2rem);
+        }
+    }
+    &__email-icon--dark {
+        //display: none;
+        width: 1.4rem;
+        margin-right: 1rem;
+        &:hover {
+            //display: block;
+            
+        }
+        &:active {
+            //display: block;
+            transform: translate(0, 0.2rem);
+        }
+    }
+}
+
+.linkedin {
+    background-image: url('../../assets/icons/linkedin.png');
+    width: 2rem;
+    height: 2rem;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &:hover {
+        background-image: url('../../assets/icons/linkedin-drkpurple.png');
+    }
+    &:active {
+        transform: translate(0, 0.2rem);
+    }
+}
+.github {
+    background-image: url('../../assets/icons/github.png');
+    width: 2rem;
+    height: 2rem;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &:hover {
+        background-image: url('../../assets/icons/github-drkpurple.png');
+    }
+    &:active {
+        transform: translate(0, 0.2rem);
+    }
+}
+.email {
+    background-image: url('../../assets/icons/email.png');
+    width: 2rem;
+    height: 2rem;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &:hover {
+        background-image: url('../../assets/icons/email-drkpurple.png');
+    }
+    &:active {
+        transform: translate(0, 0.2rem);
     }
 }
