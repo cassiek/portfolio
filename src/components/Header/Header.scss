@@ -27,6 +27,14 @@
         margin: 0 auto 1rem auto;
         width: fit-content;
         display: block;
+        &:hover {
+            //background-color: $light-silver;
+            //box-shadow: 0 0.2rem 0.5625rem -0.0625rem #B9B9B970;
+            color: $dark-purple;
+        }
+        &:active {
+            transform: translate(0, 0.2rem);
+        }
         @include tablet {
             margin: 0 0 1rem 0;
         }
@@ -48,6 +56,14 @@
         display: block;
         margin: 0 auto 1rem auto;
         width: fit-content;
+        &:hover {
+            //background-color: $light-silver;
+            //box-shadow: 0 0.2rem 0.5625rem -0.0625rem #B9B9B970;
+            color: $dark-purple;
+        }
+        &:active {
+            transform: translate(0, 0.2rem);
+        }
         @include tablet {
             margin: 0 0 1rem 1.5rem;   
         }

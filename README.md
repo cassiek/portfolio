@@ -12,5 +12,8 @@ The tech stack to make this portfolio is:
 ### Live link:
 https://cassiekumpula.netlify.app
 
+### Server App Repository:
+https://github.com/cassiek/portfolio-server/tree/main
+
 ### About the Author:
 - My LinkedIn: https://www.linkedin.com/in/cassie-k/
