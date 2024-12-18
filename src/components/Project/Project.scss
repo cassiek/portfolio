@@ -9,6 +9,8 @@
     }
     &__title {
         margin-bottom: 0.5rem;
+        color: $portfolio-lilac;
+        font-size: 2rem;
         @include tablet {
             margin-bottom: 1rem;
         }
@@ -23,7 +25,7 @@
         }
     }
     &__stack-header {
-
+        color: $medium-grey;
     }
     &__stack-list {
         margin-bottom: 1rem;
@@ -35,7 +37,7 @@
 
     }
     &__also-header {
-
+        color: $medium-grey;
     }
     &__also-list {
         margin-bottom: 1rem;
@@ -45,6 +47,7 @@
     }
     &__description-header {
         margin-bottom: 0.5rem;
+        color: $medium-grey;
         @include tablet {
             margin-bottom: 1rem;
         }
@@ -57,6 +60,7 @@
     }
     &__requirements-header {
         margin-bottom: 0.5rem;
+        color: $medium-grey;
         @include tablet {
             margin-bottom: 1rem;
         }

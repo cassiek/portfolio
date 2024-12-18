@@ -5,6 +5,7 @@
     min-height: 80vh;
     max-height: fit-content;
     @include tablet {
+        max-height: none;
         height: 87vh;
     }
     @include desktop {
@@ -15,7 +16,9 @@
         padding: 2rem 1.5rem;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        @include tablet {
+            padding: 2rem;
+        }
         @include desktop {
             padding: 2rem 0;
         }
@@ -23,6 +26,10 @@
     &__header {
         color: $portfolio-grey;
         margin-left: 0.5rem;
+        font-size: 1.6rem;
+        @include tablet {
+            margin-left: 0;
+        }
         @include desktop {
             margin: 0;
         }
@@ -31,7 +38,6 @@
         display: flex;
         flex-wrap: wrap;
         width: fit-content;
-        margin: 0 auto;
     }
 }
 .front-end {
@@ -42,7 +48,7 @@
     border: $portfolio-grey 1px solid;
     border-radius: 0.5rem;
     &__header {
-        //margin: 2rem 0;
+        
     }
     &__item {
         margin: 0.25rem 0 0 1rem;

@@ -8,6 +8,7 @@
     &__list {
         display: flex;
         flex-direction: column;
+        //justify-content: center;
         padding: 1rem 0 0 0;
         list-style-type: none;
         @include tablet {
@@ -24,11 +25,16 @@
     &__icon {
         width: 1.5rem;
         height: 1.5rem;
+        display: block;
+        margin: 0 auto 1rem auto;
         &:hover {
             box-shadow: 0 0 0.7rem 0.001rem $portfolio-grey;
         }
         &:active {
             transform: translate(0, 0.2rem);
+        }
+        @include tablet {
+            margin: 0;
         }
     }
     &__menu {

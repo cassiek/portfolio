@@ -22,6 +22,7 @@
     &__header {
         color: $portfolio-grey;
         margin-left: 0.5rem;
+        font-size: 1.6rem;
         @include desktop {
             margin: 0;
         }
@@ -29,7 +30,6 @@
     &__pdf {
         height: 90vh;
         width: 100%;
-        //display: block;
         margin: 2rem auto 0 auto;
     }
 }
