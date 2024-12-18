@@ -103,7 +103,7 @@
         }
         &:hover {
             background-color: $light-silver;
-            box-shadow: 0 0.2rem 0.5625rem -0.0625rem #B9B9B970;
+            box-shadow: 0 0 0.7rem 0.001rem $portfolio-grey;
             color: $dark-grey;
         }
         &:active {
@@ -123,7 +123,7 @@
         }
         &:hover {
             background-color: $light-silver;
-            box-shadow: 0 0.2rem 0.5625rem -0.0625rem #B9B9B970;
+            box-shadow: 0 0 0.7rem 0.001rem $portfolio-grey;
             color: $dark-grey;
         }
         &:active {
