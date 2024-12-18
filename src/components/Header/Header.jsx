@@ -1,12 +1,13 @@
 import "./Header.scss";
 import { NavLink } from "react-router-dom";
+import Icon from "../../assets/icons/web-page_7088883.png";
 
 function Header() {
     return (
         <header className="header">
             <nav className="nav">
                 <ul className="nav__list">
-                    <li><NavLink to="/" className="nav__landing">CK</NavLink></li>
+                    <li><NavLink to="/" className=""><img src={Icon} className="nav__icon"/></NavLink></li>
                     <div className="nav__menu">
                         <li><NavLink to="/skills" className="nav__item">Skills</NavLink></li>
                         <li><NavLink to="/projects" className="nav__item">Projects</NavLink></li>

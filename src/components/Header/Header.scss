@@ -21,23 +21,14 @@
             margin: 0 auto;
         }
     }
-    &__landing {
-        color: $portfolio-lilac;
-        text-decoration: none;
-        margin: 0 auto 1rem auto;
-        width: fit-content;
-        display: block;
+    &__icon {
+        width: 1.5rem;
+        height: 1.5rem;
         &:hover {
-            color: $dark-purple;
+            box-shadow: 0 0 0.7rem 0.001rem $portfolio-grey;
         }
         &:active {
             transform: translate(0, 0.2rem);
-        }
-        @include tablet {
-            margin: 0 0 1rem 0;
-        }
-        @include desktop {
-            margin: 0 0 1rem 0;
         }
     }
     &__menu {
@@ -56,6 +47,7 @@
         width: fit-content;
         &:hover {
             color: $dark-purple;
+            text-decoration: underline;
         }
         &:active {
             transform: translate(0, 0.2rem);
