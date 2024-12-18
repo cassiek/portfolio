@@ -9,10 +9,6 @@ import darkEmail from "../../assets/icons/email-drkpurple.png";
 
 
 function Footer() {
-
-    //<img src={LinkedIn} className="footer__linkedin-icon" alt="LinkedIn icon linking to LinkedIn profile"/>
-    //<img src={GitHub} className="footer__github-icon" alt="GitHub icon linking to GitHub profile"/>
-    //<img className="footer__email-icon" src={email}/>
     return (
         <footer className="footer">
             <Link to="https://www.linkedin.com/in/cassie-k/" className="footer__linkedin-icon"></Link>
