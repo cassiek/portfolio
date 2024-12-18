@@ -1,12 +1,5 @@
 import "./Footer.scss";
 import { Link } from "react-router-dom";
-import LinkedIn from "../../assets/icons/linkedin.png";
-import darkLinkedIn from "../../assets/icons/linkedin-drkpurple.png";
-import GitHub from "../../assets/icons/github.png";
-import darkGitHub from "../../assets/icons/github-drkpurple.png";
-import email from "../../assets/icons/email.png";
-import darkEmail from "../../assets/icons/email-drkpurple.png";
-
 
 function Footer() {
     return (
