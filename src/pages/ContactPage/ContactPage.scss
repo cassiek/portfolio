@@ -101,20 +101,29 @@
 
 .email {
     margin: 2rem 0 2rem 0;
+    display: flex;
+    &:hover {
+        .email__icon {
+            background-image: url('../../assets/icons/email-drkpurple.png');
+        }
+        .email__link {
+            color: $dark-purple;
+        }
+    }
+    &:active {
+        .email__icon, .email__link {
+            transform: translate(0, 0.2rem);
+        }
+    }
     &__icon {
         background-image: url('../../assets/icons/email.png');
         width: 1.3rem;
         height: 1.3rem;
         display: block;
-        margin-right: 1.2rem;
+        margin-right: 0.5rem;
+        margin-top: 0.11rem;
         background-repeat: no-repeat;
         background-size: cover;
-        &:hover {
-            background-image: url('../../assets/icons/email-drkpurple.png');
-        }
-        &:active {
-            transform: translate(0, 0.2rem);
-        }
     }
     &__link {
         color: $portfolio-lilac;
