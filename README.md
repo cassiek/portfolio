@@ -12,7 +12,7 @@ The tech stack to make this portfolio is:
 ### Live link:
 https://cassiekumpula.netlify.app
 
-### Server App Repository:
+### Server App GitHub Repo:
 https://github.com/cassiek/portfolio-server/tree/main
 
 ### About the Author:
