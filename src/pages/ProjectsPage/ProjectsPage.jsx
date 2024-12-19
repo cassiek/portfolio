@@ -14,7 +14,9 @@ function ProjectsPage() {
         async function getProjects() {
             try {
                 const response = await axios.get(API_URL);
+                console.log(response.data);
                 setProjects(response.data);
+                console.log(projects);
             } catch(error) {
                 console.error(error);
             }
