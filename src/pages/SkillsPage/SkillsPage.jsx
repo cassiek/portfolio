@@ -1,4 +1,5 @@
 import "./SkillsPage.scss";
+import HTML from "../../assets/icons/HTML5.png";
 
 function SkillsPage() {
     
@@ -9,7 +10,7 @@ function SkillsPage() {
                 <div className="skills-page__skills">
                     <ul className="front-end">
                         <h4 className="front-end__header">Font-end</h4>
-                        <li className="front-end__item">HTML</li>
+                        <li className="front-end__item">HTML</li> <img />
                         <li className="front-end__item">CSS</li>
                         <li className="front-end__item">Sass</li>
                         <li className="front-end__item">JavaScript</li>

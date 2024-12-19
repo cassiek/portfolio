@@ -7,7 +7,7 @@
         height: 87vh;
     }
     &__content {
-        color: $portfolio-grey;
+        color: $medium-grey;
         padding: 2rem 1.5rem;
         @include tablet {
             
@@ -21,6 +21,7 @@
     &__header {
         margin: 0 0 2rem 0;
         font-size: 1.6rem;
+        color: $portfolio-grey;
         @include tablet {
             margin: 0 0 2rem 0.6rem;
         }
