@@ -40,7 +40,8 @@
 }
 .front-end {
     padding: 1rem;
-    width: 10rem;
+    min-width: 10rem;
+    max-width: fit-content;
     margin: 1rem 1rem 0 0;
     color: $medium-grey;
     border: $portfolio-grey 1px solid;
@@ -60,6 +61,7 @@
                 height: 2rem;
                 width: 2rem;
                 margin-top: 0.3rem;
+                margin-right: 1rem;
             }
         }
     }
@@ -67,7 +69,7 @@
         margin: 0.25rem 0 0.4rem 1rem;
         &:hover {
             font-size: 1.6rem;
-            margin: 0.4rem 0 0.4rem 1rem;
+            margin: 0.4rem 1rem 0.4rem 1rem;
         }
     }
     &__icon {
@@ -79,7 +81,8 @@
 }
 .back-end {
     padding: 1rem;
-    width: 10rem;
+    min-width: 10rem;
+    max-width: fit-content;
     margin: 1rem 1rem 0 0;
     color: $medium-grey;
     border: $portfolio-grey 1px solid;
@@ -102,6 +105,7 @@
                 height: 2rem;
                 width: 2rem;
                 margin-top: 0.3rem;
+                margin-right: 1rem;
             }
         }
     }
@@ -109,7 +113,7 @@
         margin: 0.25rem 0 0.4rem 1rem;
         &:hover {
             font-size: 1.6rem;
-            margin: 0.4rem 0 0.4rem 1rem;
+            margin: 0.4rem 1rem 0.4rem 1rem;
         }
     }
     &__icon {
@@ -121,7 +125,8 @@
 }
 .other {
     padding: 1rem;
-    width: 10rem;
+    min-width: 10rem;
+    max-width: fit-content;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -130,11 +135,12 @@
     border: $portfolio-grey 1px solid;
     border-radius: 0.5rem;
     @include tablet {
-        width: 22rem;
+        max-width: fit-content;
         height: 23rem;
     }
     &__item-container {
         display: flex;
+        width: fit-content;
         &:hover {
             .other__item {
                 font-size: 1.6rem;
@@ -151,7 +157,7 @@
         margin: 0.25rem 0 0.4rem 1rem;
         &:hover {
             font-size: 1.6rem;
-            margin: 0.4rem 0 0.4rem 1rem;
+            margin: 0.4rem 1rem 0.4rem 1rem;
         }
     }
     &__header {
@@ -163,5 +169,6 @@
         width: 1.5rem;
         margin-top: 0.1rem;
         margin-left: 0.4rem;
+        margin-right: 1rem;
     }
 }
