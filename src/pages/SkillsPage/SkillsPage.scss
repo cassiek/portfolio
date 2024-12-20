@@ -2,11 +2,10 @@
 @use "../../styles/partials/variables" as *;
 
 .skills-page {
-    min-height: 80vh;
+    min-height: 70vh;
     max-height: fit-content;
     @include tablet {
-        max-height: none;
-        height: 87vh;
+        min-height: 88vh;
     }
     @include desktop {
         width: $desktop-content-width;
@@ -94,10 +93,17 @@
 .other {
     padding: 1rem;
     width: 10rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     margin: 1rem 0 0 0;
     color: $medium-grey;
     border: $portfolio-grey 1px solid;
     border-radius: 0.5rem;
+    @include tablet {
+        width: 22rem;
+        height: 19rem;
+    }
     &__item-container {
         display: flex;
     }

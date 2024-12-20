@@ -29,7 +29,6 @@ import StackOverflow from "../../assets/icons/Stack Overflow.png";
 import ViteIcon from "../../assets/icons/Vite.js.png";
 import VSCodeIcon from "../../assets/icons/Visual Studio Code.png";
 
-
 function SkillsPage() {
     
     return (
