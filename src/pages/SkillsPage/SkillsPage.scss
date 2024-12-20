@@ -15,7 +15,6 @@
     &__content {
         padding: 2rem 1.5rem;
         display: flex;
-        //color: $medium-grey;
         flex-direction: column;
         @include tablet {
             padding: 2rem;
@@ -50,9 +49,19 @@
     border-radius: 0.5rem;
     &__header {
         color: $med-dark-grey;
+        margin-bottom: 0.4rem;
+    }
+    &__item-container {
+        display: flex;
     }
     &__item {
-        margin: 0.25rem 0 0 1rem;
+        margin: 0.25rem 0 0.4rem 1rem;
+    }
+    &__icon {
+        height: 1.5rem;
+        width: 1.5rem;
+        margin-top: 0.1rem;
+        margin-left: 0.4rem;
     }
 }
 .back-end {
@@ -67,9 +76,19 @@
     }
     &__header {
         color: $med-dark-grey;
+        margin-bottom: 0.4rem;
+    }
+    &__item-container {
+        display: flex;
     }
     &__item {
-        margin: 0.25rem 0 0 1rem;
+        margin: 0.25rem 0 0.4rem 1rem;
+    }
+    &__icon {
+        height: 1.3rem;
+        width: 1.3rem;
+        margin-top: 0.1rem;
+        margin-left: 0.4rem;
     }
 }
 .other {
@@ -79,10 +98,20 @@
     color: $medium-grey;
     border: $portfolio-grey 1px solid;
     border-radius: 0.5rem;
+    &__item-container {
+        display: flex;
+    }
     &__item {
-        margin: 0.25rem 0 0 1rem;
+        margin: 0.25rem 0 0.4rem 1rem;
     }
     &__header {
         color: $med-dark-grey;
+        margin-bottom: 0.4rem;
+    }
+    &__icon {
+        height: 1.3rem;
+        width: 1.3rem;
+        margin-top: 0.1rem;
+        margin-left: 0.4rem;
     }
 }
