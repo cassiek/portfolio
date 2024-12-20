@@ -105,9 +105,19 @@ function SkillsPage() {
                             <img className="other__icon" src={npm} />
                         </div>
                         <div className="other__item-container">
+                            <li className="other__item">Vite.js</li>
+                            <img className="other__icon" src={ViteIcon} />
+                        </div>
+                        <div className="other__item-container">
+                            <li className="other__item">VSCode</li>
+                            <img className="other__icon" src={VSCodeIcon} />
+                        </div>
+                        <div className="other__item-container">
                             <li className="other__item">Scrum & Jira</li>
                             <img className="other__icon" src={Jira} />
                         </div>
+                        <li className="other__item">Netlify</li>
+                        <li className="other__item">Render</li>
                         <div className="other__item-container">
                             <li className="other__item">Heroku</li>
                             <img className="other__icon" src={Heroku} />
@@ -116,14 +126,22 @@ function SkillsPage() {
                             <li className="other__item">Vercel</li>
                             <img className="other__icon" src={Vercel} />
                         </div>
-                        <li className="other__item">Netlify</li>
+                        <div className="other__item-container">
+                            <li className="other__item">Firebase</li>
+                            <img className="other__icon" src={Firebase} />
+                        </div>
                         <div className="other__item-container">
                             <li className="other__item">Postman</li>
                             <img className="other__icon" src={Postman} />
                         </div>
                         <div className="other__item-container">
-                            <li className="other__item">Firebase</li>
-                            <img className="other__icon" src={Firebase} />
+                            <li className="other__item">Jest</li>
+                            <img className="other__icon" src={Jest} />
+                        </div>
+                        <li className="other__item">Vitest</li>
+                        <div className="other__item-container">
+                            <li className="other__item">Stack Overflow</li>
+                            <img className="other__icon" src={StackOverflow} />
                         </div>
                         <div className="other__item-container">
                             <li className="other__item">Figma</li>
@@ -140,23 +158,6 @@ function SkillsPage() {
                         <div className="other__item-container">
                             <li className="other__item">Adobe XD</li>
                             <img className="other__icon" src={XD} />
-                        </div>
-                        <div className="other__item-container">
-                            <li className="other__item">Jest</li>
-                            <img className="other__icon" src={Jest} />
-                        </div>
-                        <li className="other__item">Vitest</li>
-                        <div className="other__item-container">
-                            <li className="other__item">Stack Overflow</li>
-                            <img className="other__icon" src={StackOverflow} />
-                        </div>
-                        <div className="other__item-container">
-                            <li className="other__item">Vite.js</li>
-                            <img className="other__icon" src={ViteIcon} />
-                        </div>
-                        <div className="other__item-container">
-                            <li className="other__item">VSCode</li>
-                            <img className="other__icon" src={VSCodeIcon} />
                         </div>
                     </ul>
                 </div>

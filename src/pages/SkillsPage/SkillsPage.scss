@@ -2,7 +2,6 @@
 @use "../../styles/partials/variables" as *;
 
 .skills-page {
-    min-height: 70vh;
     max-height: fit-content;
     @include tablet {
         min-height: 89vh;
@@ -52,9 +51,24 @@
     }
     &__item-container {
         display: flex;
+        &:hover {
+            .front-end__item {
+                font-size: 1.6rem;
+                margin: 0.4rem 0 0.4rem 1rem;
+            }
+            .front-end__icon {
+                height: 2rem;
+                width: 2rem;
+                margin-top: 0.3rem;
+            }
+        }
     }
     &__item {
         margin: 0.25rem 0 0.4rem 1rem;
+        &:hover {
+            font-size: 1.6rem;
+            margin: 0.4rem 0 0.4rem 1rem;
+        }
     }
     &__icon {
         height: 1.5rem;
@@ -79,9 +93,24 @@
     }
     &__item-container {
         display: flex;
+        &:hover {
+            .back-end__item {
+                font-size: 1.6rem;
+                margin: 0.4rem 0 0.4rem 1rem;
+            }
+            .back-end__icon {
+                height: 2rem;
+                width: 2rem;
+                margin-top: 0.3rem;
+            }
+        }
     }
     &__item {
         margin: 0.25rem 0 0.4rem 1rem;
+        &:hover {
+            font-size: 1.6rem;
+            margin: 0.4rem 0 0.4rem 1rem;
+        }
     }
     &__icon {
         height: 1.5rem;
@@ -102,13 +131,28 @@
     border-radius: 0.5rem;
     @include tablet {
         width: 22rem;
-        height: 19rem;
+        height: 23rem;
     }
     &__item-container {
         display: flex;
+        &:hover {
+            .other__item {
+                font-size: 1.6rem;
+                margin: 0.4rem 0 0.4rem 1rem;
+            }
+            .other__icon {
+                height: 2rem;
+                width: 2rem;
+                margin-top: 0.3rem;
+            }
+        }
     }
     &__item {
         margin: 0.25rem 0 0.4rem 1rem;
+        &:hover {
+            font-size: 1.6rem;
+            margin: 0.4rem 0 0.4rem 1rem;
+        }
     }
     &__header {
         color: $med-dark-grey;
