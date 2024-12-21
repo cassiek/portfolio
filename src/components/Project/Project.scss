@@ -26,6 +26,7 @@
     }
     &__stack-header {
         color: $med-dark-grey;
+        margin-bottom: 0.1rem;
     }
     &__stack-list {
         margin-bottom: 1rem;
@@ -49,12 +50,13 @@
     }
     &__also-header {
         color: $med-dark-grey;
+        margin-bottom: 0.1rem;
     }
     &__also-list {
         margin-bottom: 1rem;
     }
     &__also-item {
-
+        margin: 0.3rem 0;
     }
     &__description-header {
         margin-bottom: 0.5rem;
