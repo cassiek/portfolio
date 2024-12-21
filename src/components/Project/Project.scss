@@ -33,6 +33,13 @@
     &__stack-item {
 
     }
+    &__stack-icon {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    &__stack-item-container {
+        display: flex;
+    }
     &__also-container {
 
     }

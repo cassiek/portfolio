@@ -84,7 +84,7 @@ function Project({ title, stack, also, poster, video, live, GitHub, description,
     let stackSection = <ul className="project__stack-list">
         {stack.map((item) => {
             if (item in icons == true) {
-                return <div><li className="project__stack-item">{item}</li>
+                return <div className="project__stack-item-container"><li className="project__stack-item">{item}</li>
                     <img className="project__stack-icon" src={icons[item]}/>
                     </div>
             } else {
