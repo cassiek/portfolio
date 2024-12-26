@@ -34,7 +34,6 @@
     &__skills {
         display: flex;
         flex-wrap: wrap;
-        width: fit-content;
     }
 }
 .front-end {
@@ -48,6 +47,9 @@
     &__header {
         color: $med-dark-grey;
         margin-bottom: 0.4rem;
+        @include tablet {
+            margin-bottom: 0.75rem;
+        }
     }
     &__item-container {
         display: flex;
@@ -92,6 +94,9 @@
     &__header {
         color: $med-dark-grey;
         margin-bottom: 0.4rem;
+        @include tablet {
+            margin-bottom: 0.8rem;
+        }
     }
     &__item-container {
         display: flex;
@@ -124,22 +129,23 @@
 }
 .other {
     padding: 1rem;
-    min-width: 10rem;
-    max-width: fit-content;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    min-width: 10rem;
     margin: 1rem 0 0 0;
     color: $medium-grey;
     border: $portfolio-grey 1px solid;
     border-radius: 0.5rem;
     @include tablet {
-        max-width: fit-content;
+        margin: 1rem 0 0 0;
+        display: grid;
+        grid: 15rem / auto auto;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-auto-flow: column;
         height: 23rem;
     }
     &__item-container {
         display: flex;
-        width: fit-content;
         &:hover {
             .other__item {
                 font-size: 1.6rem;
