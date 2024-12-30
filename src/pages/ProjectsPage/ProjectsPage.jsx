@@ -37,7 +37,7 @@ function ProjectsPage() {
                         stack={project.stack}
                         also={project.also}
                         poster={API_URL+`/${project.poster}`}
-                        video={project.video}
+                        video={API_URL+`${project.video}`}
                         live={project.live}
                         GitHub={project.GitHub}
                         description={project.description}

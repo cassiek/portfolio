@@ -108,7 +108,7 @@ function Project({ title, stack, also, poster, video, live, GitHub, description,
             </div>
             <div className="preview">
                 <video controls className="preview__video-player" poster={poster}>
-                    <source src={video} type="" />
+                    <source src={video} type="video/mp4" />
                 </video>
             </div>
             <div className="buttons">
