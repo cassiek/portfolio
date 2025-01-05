@@ -10,6 +10,7 @@
         margin: 12rem 0;
         @include tablet {
             margin: 18rem 0;
+            display: flex;
         }
         @include desktop {
             width: $desktop-content-width;

@@ -40,7 +40,6 @@ function Project({ title, stack, also, poster, video, live, GitHub, description,
         gitHub = <div className="buttons__private-container"><p className="buttons__private-text">Private Repo</p><img className="buttons__private-icon" src={lock} /></div>;
     }
 
-
     let alsoHeader;
     if (also.length > 0) {
         alsoHeader = <h4 className="project__also-header">Also:</h4>;
@@ -81,24 +80,32 @@ function Project({ title, stack, also, poster, video, live, GitHub, description,
         Vite: ViteIcon,
     }
 
-    let stackSection = <ul className="project__stack-list">
-        {stack.map((item) => {
-            if (item in icons == true) {
-                return <div className="project__stack-item-container"><li className="project__stack-item">{item}</li>
-                    <img className="project__stack-icon" src={icons[item]}/>
-                    </div>
-            } else {
-                return <li className="project__stack-item">{item}</li>
-            }
-        })}
-    </ul>
+    let stackHeader;
+    if (also.length > 0) {
+        stackHeader = <h4 className="project__stack-header">Tech stack:</h4>;
+    }
+
+    let stackSection;
+    if (stack.length > 0) {
+        stackSection = <ul className="project__stack-list">
+            {stack.map((item) => {
+                if (item in icons == true) {
+                    return <div className="project__stack-item-container"><li className="project__stack-item">{item}</li>
+                        <img className="project__stack-icon" src={icons[item]}/>
+                        </div>
+                } else {
+                    return <li className="project__stack-item">{item}</li>
+                }
+            })}
+        </ul>
+    }
 
     return (
         <div className="project">
             <h3 className="project__title">{title}</h3>
             <div className="project__tech-container">
                 <div className="project__stack-container">
-                    <h4 className="project__stack-header">Tech stack:</h4>
+                    {stackHeader}
                     {stackSection}
                 </div>
                 <div className="project__also-container">
