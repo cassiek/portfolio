@@ -24,8 +24,6 @@ function LandingPage() {
                         className="landing-page__type-animation"
                     />
                 </h1>                            
-                <h1>About</h1>
-                <p></p>
             </section>
         </main>
     )
